@@ -52,6 +52,10 @@ body {
   color: var(--title-cl);
 }
 
+section {
+  padding: 94px 0;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -167,6 +171,9 @@ body {
 
 /* ==== Герой ==== */
 .dark {
+  padding-bottom: 0;
+  padding-top: 0;
+
   background-color: var(--dark-bg);
   font-weight: 400;
 }
@@ -201,8 +208,15 @@ body {
 
 /*=============================*/
 
+/* ==== Наши работы ==== */
+.our-work {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
 .section-title {
   margin-bottom: 50px;
+
   font-size: 36px;
   line-height: 1.67;
   letter-spacing: 0.03em;
@@ -210,8 +224,6 @@ body {
 }
 
 .list-work {
-  padding: 0;
-  padding-bottom: 94px;
   margin: 0;
 
   display: flex;
@@ -221,11 +233,11 @@ body {
   padding-right: 30px;
 }
 
+/*=============================*/
+
 /* ==== Преимущества ====*/
 .benefits {
   margin-top: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .benefits-list {
@@ -256,8 +268,6 @@ body {
 
 /* ==== Команда  ==== */
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--second-bg);
 }
 
@@ -367,7 +377,6 @@ body {
 .list-filter {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -383,7 +392,7 @@ body {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  padding-bottom: 94px;
+
   margin-left: calc(-1 * 30px);
   margin-top: calc(-1 * 30px);
   list-style: none;
