@@ -57,7 +57,7 @@ section {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -178,17 +178,22 @@ section {
   font-weight: 400;
 }
 
+.dark-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .dark-content {
   display: flex;
   flex-wrap: wrap;
 
   margin: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  /*padding-top: 200px;
+  padding-bottom: 200px;*/
 
   justify-content: center;
   width: calc(100% / 12 * 8);
-  min-height: 600px;
+  /*min-height: 600px;*/
 }
 
 .title {
@@ -382,6 +387,12 @@ section {
 
 .list-filter > li:not(:last-child) {
   margin-right: 8px;
+}
+
+.filter-current {
+  color: var(--alt-titel-cl);
+  background-color: #188ce8;
+  cursor: pointer;
 }
 /*=============================*/
 
