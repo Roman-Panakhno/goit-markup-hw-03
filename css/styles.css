@@ -156,7 +156,7 @@ section {
 
 .list-add {
   display: inline-flex;
-  color: var(--main-text-cl);
+  color: var(--title-cl);
 }
 
 .list-item:not(:last-child) {
